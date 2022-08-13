@@ -22,19 +22,19 @@ let apiKey = ["82265ec458186eb48ed958640e3c3e8f",
 
 
 let imgs = {
-    "Sunny": "../Weather Images/img5.png",
-    "Clouds": "../Weather Images/img2.png",
-    "Clear": "../Weather Images/img5.png",
-    "Rain": "../Weather Images/img7.png",
-    "Snow": "../Weather Images/img9.png",
-    "Wind": "../Weather Images/img27.png",
-    "Drizzle": "../Weather Images/img10.png",
-    "Mist": "../Weather Images/img33.png",
-    "Smoke": "../Weather Images/img33.png",
-    "Dust": "../Weather Images/img33.png",
-    "Fog": "../Weather Images/img33.png",
-    "Thunderstorm": "../Weather Images/img13.png",
-    "not found": "../Main Resources/error.png"
+    "Sunny": "./Weather Images/img5.png",
+    "Clouds": "./Weather Images/img2.png",
+    "Clear": "./Weather Images/img5.png",
+    "Rain": "./Weather Images/img7.png",
+    "Snow": "./Weather Images/img9.png",
+    "Wind": "./Weather Images/img27.png",
+    "Drizzle": "./Weather Images/img10.png",
+    "Mist": "./Weather Images/img33.png",
+    "Smoke": "./Weather Images/img33.png",
+    "Dust": "./Weather Images/img33.png",
+    "Fog": "./Weather Images/img33.png",
+    "Thunderstorm": "./Weather Images/img13.png",
+    "not found": "./Main Resources/error.png"
 };
 
 
