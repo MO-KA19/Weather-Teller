@@ -4,91 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/all.css">
-    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="icon" type="image/x-icon" href="./Main Resources/favico.png">
+    <link rel="icon" type="image/x-icon" href="./media/logo.png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Weather Teller</title>
 </head>
 <body>
-    
-
-    
-<center>
-
-    <header>
-        <img src="./Main Resources/logo.png" alt="logo" id="logo">
-
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#mycity">My City</a></li>
-                <li><a href="#abot">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
 
-    <div class="land">
-
-        <div class="social">
-            <i class="fa-brands fa-facebook-square" title="Facebook"></i>
-            <i class="fa-brands fa-instagram-square" title="Instagram"></i>
-            <i class="fa-brands fa-twitter-square" title="Twitter"></i>
-            <i class="fa-brands fa-whatsapp-square" title="Whatsapp"></i>
-            <i class="fa-brands fa-youtube-square" title="Youtube"></i>
-        </div>
-        <div class="container">
-
-            <div class="content">
-                <h1>Weather in The Hand Now!</h1>
-            <p> With Weather Teller all information about the your city weather will be in your Hand<br>
-                you can see and check your city weather data so easily from this app, where ever you<br> 
-                are and when ever it is,try to add your city and see the details. 
-            </p>
-            <button><span>Learn More</span> <i class="fa-solid fa-arrow-right"></i></button>
-            </div>
-
-        </div>
-    
-    
-        <div class="container">
-            <img src="./Main Resources/land.png" alt="land">
-        </div>
+<header class="animate__animated animate__fadeIn">
+    <span>...</span>
+    <img src="./media/logo.png" alt="logo" id="logo">
+    <div class="icons">
+        <a target="_blank" href="https://github.com/MO-KA19"><i class="fa-brands fa-github fa-beat fa-xl"></i></a>
+        <a target="_blank" href="https://mostaql.com/u/mo_ka_20/portfolio"><i class="fa-solid fa-briefcase fa-beat fa-xl"></i></a>
+        <a href="#"><i class="fa-solid fa-earth-americas fa-beat fa-xl"></i></a>
     </div>
+</header>
 
 
-    <div class="more" style="
-        position: relative;
-        bottom: 200px;
-        display: inline-block;">
-        <h3>See Now</h3>
-        <br>
-        <i class="fa-solid fa-angles-down"></i>
-    </div>
-</center>
-
-<i class="fa-solid fa-square-caret-up" id="up" title="Scroll to top"></i>
-    
-
-<center class="cnt">
-
-    <h1 class="special_heading" id="mycity">Local Weather</h1>
-
-    <br>
-    <br>
-    <br>
 
     <main>
-
-        <div class="box">
+        <div class="container">
+            <div class="box animate__animated animate__zoomIn">
             <h1 id="location">Today</h1>
-            <img src="./Weather Images/img40.png" alt="img" id="pic1">
+            <img src="./media/img40.png" alt="img" id="pic1">
 
             <div class="state">
                 <h1 id="degree1" >00</h1> <h2 id="st1">Connecting...</h2>
@@ -99,102 +45,56 @@
 
                 <div class="d2"><i class="fa-solid fa-caret-down"></i> <h1 id="mn1">00</h1> <h3 >Min</h3></div>
             </div>
-        </div>
+            </div>
+
+
+            <div class="box animate__animated animate__zoomIn">
+                <h1 id="time">Tomorrow</h1>
+                <img src="./media/img40.png" alt="img" id="pic2">
+
+                <div class="state">
+                    <h1 id="degree2">00</h1> <h2 id="st2">Connecting...</h2>
+                </div>
+
+                <div class="degs">
+                    <div class="d1"><i class="fa-solid fa-caret-up"></i> <h1 id="mx2">00</h1> <h3 >Max</h3></div>
+
+                    <div class="d2"><i class="fa-solid fa-caret-down"></i> <h1 id="mn2">00</h1> <h3 >Min</h3></div>
+                </div>
+            </div>
 
         
 
-       
+            <div class="box3 animate__animated animate__zoomIn">
+                <h1 id="custom">Add City</h1>
+                <div class="frame"><img title="Add a custom city" src="./media/plus.png" alt="plus" class="pic3a"></div>
+                
+
+                <div class="state" id="cust_st">
+                    <h1 id="degree2">00</h1> <h2 id="st2">Connecting...</h2>
+                </div>
+
+                <div class="degs" id="cust_deg">
+                    <div class="d1"><i class="fa-solid fa-caret-up"></i> <h1 id="mx2">00</h1> <h3 >Max</h3></div>
+
+                    <div class="d2"><i class="fa-solid fa-caret-down"></i> <h1 id="mn2">00</h1> <h3 >Min</h3></div>
+                </div>
 
 
-        <div class="box">
-            <h1 id="time">Tomorrow</h1>
-            <img src="./Weather Images/img40.png" alt="img" id="pic2">
-
-            <div class="state">
-                <h1 id="degree2">00</h1> <h2 id="st2">Connecting...</h2>
-            </div>
-
-            <div class="degs">
-                <div class="d1"><i class="fa-solid fa-caret-up"></i> <h1 id="mx2">00</h1> <h3 >Max</h3></div>
-
-                <div class="d2"><i class="fa-solid fa-caret-down"></i> <h1 id="mn2">00</h1> <h3 >Min</h3></div>
+                <input placeholder="Enter City Name..." spellcheck="true" type="text" class="customcity" name="field1" id="ip"/>
+                <button class="box3btn">Get Weather Data</button>
+                <img src="./media/building.png" alt="city" id="pic3b">
             </div>
         </div>
-
-        
-
-        <div class="box3">
-            <h1 id="custom" style="margin-top: 25px;">Add City</h1>
-            <div class="frame"><img title="Add a custom city" src="./Weather Images/plus.png" alt="plus" class="pic3a"></div>
-            
-
-            <div class="state" id="cust_st">
-                <h1 id="degree2">00</h1> <h2 id="st2">Connecting...</h2>
-            </div>
-
-            <div class="degs" id="cust_deg">
-                <div class="d1"><i class="fa-solid fa-caret-up"></i> <h1 id="mx2">00</h1> <h3 >Max</h3></div>
-
-                <div class="d2"><i class="fa-solid fa-caret-down"></i> <h1 id="mn2">00</h1> <h3 >Min</h3></div>
-            </div>
-
-
-            <input placeholder="Enter City Name..." spellcheck="true" type="text" class="customcity" name="field1" id="ip"/>
-            <button class="box3btn">Get Weather Data</button>
-            <img src="./Weather Images/building.png" alt="city" id="pic3b">
-        </div>
-
     </main>
-</center>
-
-<br><br><br><br><br>
-
-<center class="cnt">
-    <h1 class="special_heading" id="abot">About</h1>
-    <div class="land">
-        <div class="container">
-            <div class="content">
-                <p class="about_p">
-                    Weather Teller is a simple way to know the weather in your local city.This website has been build
-                    using a public API and depend on your own internet speed. This website does not belong to any
-                    company or any special institutions and it's only for showing a personal skills in designing 
-                    and building websites with API.
-                </p>
-            </div>
-        </div>
-        <div class="container">
-            <img src="./Main Resources/about.png" alt="about">
-        </div>
-    </div>
-</center>
 
 
-<center class="cnt">
-    <h1 class="special_heading" id="contact">Contact</h1>
-    <div class="land">
-        <div class="container">
-            <div class="content">
-                        <form>
-                            <h1>Keep in Touch</h1>
-                            <input required type="text" placeholder="Full Name" minlength="6" maxlength="25">
-                            <br>
-                            <input required type="email" placeholder="E-mail">
-                            <br>
-                            <textarea required minlength="20" cols="10" rows="10" placeholder="Tell us how can we improve the website more" spellcheck="true"></textarea>
-                            <br>
-                            <button type="submit">Send Feedback</button>
-                        </form>
-            </div>
-        </div>
-        <div class="container" id="special">
-            <img src="./Main Resources/contact.png" alt="contact">
-        </div>
-    </div>
-</center>
+
 <footer>
-    <h1>Made with &hearts; by Mohammed Kasim <sup>©</sup> <strong id="year"></strong></h1>
+    <p>Weather Teller is a small app used to show the local weather of the user city and allow the user to see a weather for a any city he want from a simple custom weather box. this app does not belong to any company and it's only a skills show projects </p>
+    <h2>Made with &hearts; by Mohammed Kasim <sup>©</sup> <strong id="year"></strong></h2>
 </footer>
 
-<script src="./script.js" defer></script>
+<script src="./js/script.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,68 @@
+@media (max-width:1440px) {
+    .box {
+        width: 30%;
+        height: 675px;
+    }
+
+    .box3{
+        width: 30%;
+        height: 675px;
+    }
+}
+
+
+@media (max-width:1200px) {
+    .box {
+        width: 32%;
+        height: 600px;
+    }
+
+    .box3 {
+        width: 32%;
+        height: 600px;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .box {
+        height: 700px;
+        width: 50%;
+        margin: 32px;
+    }
+
+    .box3 {
+        height: 700px;
+        width: 50%;
+        margin: 24px;
+    }
+
+    footer p {
+        width: 100%;
+        margin: unset;
+    }
+}
+
+@media (max-width:767px) {
+    header {
+        flex-direction: column; 
+    }
+    
+    header span {
+        display: none;
+    }
+
+    .box, .box3 {
+        width: 95%;
+    }
+    .icons i {
+        font-size: 32px;
+        margin: 32px;
+        color: #8492a3;
+        cursor: pointer;
+    }
+}
