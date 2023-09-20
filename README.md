@@ -1,7 +1,5 @@
 # Weather Teller: Your Weather Companion
-
-![Weather Teller Logo](./media/logo.png)
-### Video Demo:  https://youtu.be/Rhe1HohzP54
+## URL : https://weathertellerwt.netlify.app/
 ## Overview
 
 Weather Teller is your one-stop destination for up-to-the-minute weather information in your city and beyond. This innovative web application combines sleek design, powerful JavaScript functionality, and real-time weather data from a reliable API to bring you the most accurate weather forecasts. Let's take a closer look at the exciting features that make Weather Teller your go-to weather companion.
